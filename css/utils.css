@@ -1,0 +1,38 @@
+.text-center {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1 {
+    padding: 5px 10px;
+    background-color: var(--main-bg-color);
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.my-1 {
+    margin: 5px 0px;
+}
+
+.my-2 {
+    margin: 26px 0px;
+}
+
+.mx-1 {
+    margin: 10px 10px;
+}
+
+.mx-2 {
+    margin: 20px 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* .card-margin
+{
+    margin: 0px 31px;
+} */

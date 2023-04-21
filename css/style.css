@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --main-bg-color: #2874f0
+}
+
+header {
+    font-family: 'Lato', sans-serif;
+    background-color: var(--main-bg-color);
+    height: 58px;
+}
+
+nav {
+    display: flex;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: var(--main-bg-color);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: brown;
+    font-weight: bold;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 18px;
+    padding: 0px 25px;
+}
+
+.container {
+    min-height: calc(100vh - 58px - 7vh);
+}
+
+.input {
+    display: flex;
+    align-items: center;
+}
+
+.input input {
+    height: 38px;
+    width: 48vw;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    padding: 0px 12px;
+}
+
+.btn1 {
+    padding: 5px 10px;
+    background-color: var(--main-bg-color);
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.searchBtn {
+    height: 24px;
+    background-color: transparent;
+}
+
+.btn1:hover {
+    height: 28px;
+}
+
+.slider {
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+
+.card {
+    max-width: 91vw;
+    margin: 37px auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.card-item {
+    display: inline-block;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 31px;
+    width: 10vw;
+}
+
+.card h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+.card img {
+    margin-left: -15px;
+    border-radius: 7px;
+}
+
+.card img:hover {
+    width: 170px;
+    height: 110px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    height: 7vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+button[type="submit"] {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+    margin-left: -54px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    opacity: 1;
+}
+
+.submitBtn {
+    display: flex;
+    align-items: center;
+    /* background-color: antiquewhite; */
+    text-align: center;
+    padding: 10px 10px;
+}
+
+button {
+    padding: 8px 21px;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: white;
+}
+
+.icon i {
+    margin-top: 3px;
+    padding: 1px 9px;
+    cursor: pointer;
+}
+
+.icon i:hover {
+    width: 20px;
+    height: 20px;
+
+}
+
+.span {
+    cursor: pointer;
+}
